@@ -1,13 +1,13 @@
-diff --git a/hassio/__init__.py b/hassio/__init__.py
-index e367a93..94d30ae 100644
---- a/hassio/__init__.py
-+++ b/hassio/__init__.py
-@@ -137,7 +137,7 @@ DATA_SUPERVISOR_STATS = "hassio_supervisor_stats"
+diff --git a/hassio/const.py b/hassio/const.py
+index 0845a98..5ee3206 100644
+--- a/hassio/const.py
++++ b/hassio/const.py
+@@ -75,7 +75,7 @@ DATA_SUPERVISOR_STATS = "hassio_supervisor_stats"
  DATA_ADDONS_CHANGELOGS = "hassio_addons_changelogs"
  DATA_ADDONS_INFO = "hassio_addons_info"
  DATA_ADDONS_STATS = "hassio_addons_stats"
 -HASSIO_UPDATE_INTERVAL = timedelta(minutes=5)
 +HASSIO_UPDATE_INTERVAL = timedelta(seconds=30)
  
- ADDONS_COORDINATOR = "hassio_addons_coordinator"
- 
+ ATTR_AUTO_UPDATE = "auto_update"
+ ATTR_VERSION = "version"
